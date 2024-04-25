@@ -6,8 +6,8 @@ A simple PowerShell script to list Electron applications in specific directories
 ---
 
 ## Note
-In summary, this script attempts to locate drive letters on Windows and then proceeds to search common paths where applications are typically found (such as Program Files, AppData, and several user directories like Desktop, Downloads, and Documents).  <br/>
-in Windows, (with my limited knowledge) we need to define specific paths manually within the script. While there may be other potential paths, such as WindowApp, at least this serves as an initial step in identifying the presence of Electron-based applications within a Windows OS. <br/>
+In summary, this script attempts to locate drive letters on Windows and then proceeds to search common paths where applications are typically found (such as Program Files, AppData, and several user directories like Desktop, Downloads, and Documents).  <br/> <br/>
+In Windows, (with my limited knowledge) we need to define specific paths manually within the script. While there may be other potential paths, such as WindowApp, at least this serves as an initial step in identifying the presence of Electron-based applications within a Windows OS. <br/>
 
 Notes: <br/>
 * We may encounter duplicate information in the output. Well, this is because we are using '.asar' as the search keyword, and there is a possibility that within a directory, there are more than one '.asar' files.
@@ -17,7 +17,7 @@ Notes: <br/>
 
 ## How to use
 
-`> .\find_electron_on_Windows.ps1 <br/>`
+`> .\find_electron_on_Windows.ps1`
 
 Sample output: <br/>
 
